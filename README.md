@@ -3,6 +3,8 @@
 This project simulates a realistic Customer Success Engineer (CSE) scenario at Pendo:  
 a customer believes feature adoption is low, but the issue turns out to be how the feature is being tracked — not how it’s being used.
 
+[Live demo](https://pendo-cse-case-review.vercel.app/)
+
 The goal of this project is to demonstrate how I approach:
 - diagnosing product analytics issues
 - separating instrumentation problems from real usage problems
