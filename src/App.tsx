@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import Overview from "./pages/Overview";
 import Investigation from "./pages/Investigation";
 import CustomerResponse from "./pages/CustomerResponse";
@@ -26,6 +27,7 @@ function App() {
       {page === "investigation" && <Investigation />}
       {page === "customer" && <CustomerResponse />}
       {page === "internal" && <InternalNotes />}
+      <Analytics />
     </div>
   );
 }
